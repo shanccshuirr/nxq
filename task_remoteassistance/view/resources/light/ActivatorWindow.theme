@@ -1,0 +1,85 @@
+QPushButton {
+    font-size: 12px;
+    outline: none;
+}
+
+#BackButton {
+    border-image: url(:/view/resources/back_normal.svg);
+}
+#BackButton:hover {
+    border-image: url(:/view/resources/back_hover.svg);
+}
+#BackButton:pressed {
+    border-image: url(:/view/resources/back_press.svg);
+}
+
+#Title {
+    font-size: 40px;
+    color: white;
+    height: 40px;
+    qproperty-alignment: AlignCenter;
+}
+
+#StateHint {
+    font-size: 36px;
+    color: #FF8000;
+    height: 36px;
+    qproperty-alignment: AlignCenter;
+}
+
+#InfoKey {
+    font: 14px;
+    color: black;
+}
+
+#InfoValue {
+    font: bold 14px;
+    color: black;
+}
+
+#HelpHint {
+    font: 12px;
+    color: black;
+    qproperty-alignment: AlignCenter;
+}
+
+#SerialInputHint {
+    font: 12px;
+    color: black;
+    qproperty-alignment: AlignCenter;
+}
+
+#SerialHelpHint {
+    font: 12px;
+    color: black;
+    qproperty-alignment: AlignCenter;
+}
+
+#FailedTitleHint {
+    font: 36px;
+    color: #FF8000;
+    qproperty-alignment: AlignCenter;
+}
+
+#SuccessStateHint {
+    font: 36px;
+    color: #4EC106;
+}
+
+#MachineCode {
+    font: 30px;
+    color: black;
+}
+
+#ExportTitle {
+    font: 36px;
+    color: #4EC106;
+}
+
+Label {
+    font-size:14px;
+    color: #004EE5;
+}
+
+#Logo {
+}

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>light/ActivatorWindow.theme</file>
+    </qresource>
+</RCC>
